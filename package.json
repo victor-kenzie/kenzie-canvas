@@ -20,7 +20,7 @@
   "scripts": {
     "deploy": "yarn run build && ./node_modules/.bin/gh-pages -d build",
     "start": "react-scripts start",
-    "build": "CI='' react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
